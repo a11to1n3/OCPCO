@@ -7,6 +7,7 @@ Created on Mon Oct 12 15:58:50 2020
 
 Inspired by and inherited from Matlab version of Cuckoo Search (CS) algorithm by Xin-She Yang and Suash Deb Programmed by Xin-She Yang at Cambridge University Programming dates: Nov 2008 to June 2009 Last revised: Dec 2009 (simplified version for demo only)
 """
+
 from CS import *
 
 def Cuckoo_Main(input_file,plot_fitness):

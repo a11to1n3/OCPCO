@@ -12,16 +12,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 
-def operatingTimeFuction(Ifn,Ip,A,B,C,I50n,TDS,plotI50n):
-  if (plotI50n):
-    if (Ifn<=I50n):
-      operatingTime = ((A/((Ifn/Ip)**B-1))+C)*TDS
-    else:
-      operatingTime = 0
-  else:
-      operatingTime = ((A/((Ifn/Ip)**B-1))+C)*TDS
-  return operatingTime
-
 # A d-dimensional objective function
 def Cuckoo_top_functions(P,num_relay,CT, Ipick, Ifault, TOP_desired, tolerance_dn, \
                                  discrimination_time, min_TDS, max_TDS, min_TMS):

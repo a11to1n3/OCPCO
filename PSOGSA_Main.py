@@ -61,10 +61,4 @@ def PSOGSA_Main(input_file,plot_fitness):
       set_C3 = gBest[3]
       output_file.append([set_TDS, set_C1, set_C2, set_C3, operating_time, DTime])
     chart.append(best_chart) 
-  if (plot_fitness):
-    plt.semilogy(np.array(chart),'-r')
-    plt.title(['Num Relay: F',str(i)])
-    plt.xlabel('Iteration')
-    plt.ylabel('Fitness(Best-so-far)')
-  plt.show()
   return output_file, chart
