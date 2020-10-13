@@ -117,8 +117,8 @@ def PSOGSA(n, max_iter, num_relay, CT, Ipick, Ifault, TOP_desired, tolerance_dn,
           gBest = current_position[i]
           operating_time = fitness
 
-    best = current_fitness.min()
-    worst = current_fitness.max()
+    best = pBestScore.min()
+    worst = pBestScore.max()
 
     best_chart[it] = gBestScore
 
