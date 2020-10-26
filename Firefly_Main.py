@@ -75,6 +75,10 @@ def Firefly_Main(input_file,plot_fitness,IECType,FixABC):
     max_TDS = input_file[i][17]
     min_TMS = input_file[i][18]
 
+    FixA = input_file[i][19]
+    FixB = input_file[i][20]
+    FixC = input_file[i][21]
+
     if FixABC:
       min_C1 = FixA
       min_C2 = FixB
