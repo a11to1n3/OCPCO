@@ -11,7 +11,7 @@ Inspired by and inherited from Matlab version of Cuckoo Search (CS) algorithm by
 from CS import *
 
 def Cuckoo_Main(input_file,plot_fitness):
-  #GSA_MAIN Summary of this function goes here
+  #Cuckoo_Main Summary of this function goes here
   #   Detailed explanation goes here
   output_file=[]
   chart = []

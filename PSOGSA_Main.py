@@ -6,7 +6,7 @@ Inspired by and inherited from Matlab version of PSOGSA source code v3.0, Genera
 from PSOGSA import *
 
 def PSOGSA_Main(input_file,plot_fitness):
-  #GSA_MAIN Summary of this function goes here
+  #PSOGSA_MAIN Summary of this function goes here
   #   Detailed explanation goes here
   output_file=[]
   chart = []

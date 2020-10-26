@@ -40,7 +40,7 @@ def PSO_top_functions(P,num_relay,CT, Ipick, Ifault, TOP_desired, tolerance_dn, 
   return fittemp.min()
 
 def PSO_Main(input_file,func):
-  #GSA_MAIN Summary of this function goes here
+  #PSO_MAIN Summary of this function goes here
   #   Detailed explanation goes here
   output_file=[]
   chart = []
